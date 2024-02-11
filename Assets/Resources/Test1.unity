@@ -152,9 +152,9 @@ MonoBehaviour:
   dSource: {fileID: 4900000, guid: 61fe4b68104d24748a992797caf01f84, type: 3}
   starPrefab: {fileID: 4382441395083446039, guid: 4eac90f112b417d4c9efa62a51e5e0e2,
     type: 3}
-  linePrefab: {fileID: 503847647134147695, guid: 777398497976b2a4999ff8cb76acb745,
+  linePrefab: {fileID: 1871329924986725261, guid: f02c2e3265409e140bd531e3023f0649,
     type: 3}
-  constellationsrc: {fileID: 4900000, guid: 0f758be59ac912f4c89e0b702e304ed0, type: 3}
+  constellationsrc: {fileID: 4900000, guid: 5a4482a6ffa1f2e4c968113a9f6558eb, type: 3}
   show_exo: 0
   colorArray: {r: 0, g: 0, b: 0, a: 0}
   starData: []

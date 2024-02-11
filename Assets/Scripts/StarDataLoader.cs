@@ -25,11 +25,11 @@ public class StarDataLoader : MonoBehaviour
 
 		ParseFile();
         string[] constellationship = constellationsrc.text.Split('\n');
-        for (int i = 0; i < constellationship.Length; i++)
+        for (int i = 0; i < 30; i++)
         {
             string[] const1 = constellationship[i].Split(new[] { " " }, StringSplitOptions.None);
             int.TryParse(const1[1], out int lines);
-            string[] constellation = const1.Skip(2).ToArray();
+            string[] constellation = const1.Skip(3).ToArray();
             CreateContellations(lines, constellation);
         }
 	}
